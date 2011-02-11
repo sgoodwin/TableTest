@@ -12,6 +12,10 @@
 @interface TestItemCell : NSCell {
 @private
     NSImageCell *imageCell;
+    NSDictionary *textAttributes;
+    NSDictionary *subtextAttributes;
 }
 @property(copy)NSImageCell *imageCell;
+@property(copy)NSDictionary *textAttributes;
+@property(copy)NSDictionary *subtextAttributes;
 @end

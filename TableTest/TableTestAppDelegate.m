@@ -21,13 +21,11 @@
     obj1.title = @"A title!";
     obj1.subtitle = @"A longer subtitle!";
     obj1.anImage = [NSImage imageNamed:NSImageNameUser];
-    NSLog(@"Image: %@", obj1.anImage);
     
     TestItem *obj2 = [[TestItem alloc] init];
     obj2.title = @"Another title!";
     obj2.subtitle = @"An even much longer longer longer subtitle!";
     obj2.anImage = [NSImage imageNamed:NSImageNameEveryone];
-    NSLog(@"Image: %@", obj2.anImage);
     
     self.items = [NSArray arrayWithObjects:obj1, obj2, nil];
     [self.tableView reloadData];
