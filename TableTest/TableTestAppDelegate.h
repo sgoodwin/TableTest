@@ -11,8 +11,11 @@
 @interface TableTestAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    NSArray *items;
+    NSTableView *tableView;
 }
 
-@property (assign) IBOutlet NSWindow *window;
-
+@property(assign)IBOutlet NSWindow *window;
+@property(copy)NSArray *items;
+@property(assign)IBOutlet NSTableView *tableView;
 @end

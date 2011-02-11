@@ -13,6 +13,8 @@
 		9BC86D4F1305D605009E713C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC86D4D1305D605009E713C /* Credits.rtf */; };
 		9BC86D521305D605009E713C /* TableTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC86D511305D605009E713C /* TableTestAppDelegate.m */; };
 		9BC86D551305D606009E713C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC86D531305D606009E713C /* MainMenu.xib */; };
+		9BC86D5D1305D8B6009E713C /* TestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC86D5C1305D8B6009E713C /* TestItem.m */; };
+		9BC86D601305D979009E713C /* TestItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC86D5F1305D979009E713C /* TestItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		9BC86D411305D605009E713C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9BC86D421305D605009E713C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9BC86D431305D605009E713C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9BC86D461305D605009E713C /* TableTest-Info.plist */ = {isa = PBXFileReference; path = "TableTest-Info.plist"; sourceTree = "<group>"; };
+		9BC86D461305D605009E713C /* TableTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTest-Info.plist"; sourceTree = "<group>"; };
 		9BC86D481305D605009E713C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9BC86D4A1305D605009E713C /* TableTest-Prefix.pch */ = {isa = PBXFileReference; path = "TableTest-Prefix.pch"; sourceTree = "<group>"; };
+		9BC86D4A1305D605009E713C /* TableTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableTest-Prefix.pch"; sourceTree = "<group>"; };
 		9BC86D4B1305D605009E713C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BC86D4E1305D605009E713C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9BC86D501305D605009E713C /* TableTestAppDelegate.h */ = {isa = PBXFileReference; path = TableTestAppDelegate.h; sourceTree = "<group>"; };
+		9BC86D501305D605009E713C /* TableTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableTestAppDelegate.h; sourceTree = "<group>"; };
 		9BC86D511305D605009E713C /* TableTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTestAppDelegate.m; sourceTree = "<group>"; };
 		9BC86D541305D606009E713C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9BC86D5B1305D8B6009E713C /* TestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestItem.h; sourceTree = "<group>"; };
+		9BC86D5C1305D8B6009E713C /* TestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItem.m; sourceTree = "<group>"; };
+		9BC86D5E1305D979009E713C /* TestItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestItemCell.h; sourceTree = "<group>"; };
+		9BC86D5F1305D979009E713C /* TestItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				9BC86D511305D605009E713C /* TableTestAppDelegate.m */,
 				9BC86D531305D606009E713C /* MainMenu.xib */,
 				9BC86D451305D605009E713C /* Supporting Files */,
+				9BC86D5B1305D8B6009E713C /* TestItem.h */,
+				9BC86D5C1305D8B6009E713C /* TestItem.m */,
+				9BC86D5E1305D979009E713C /* TestItemCell.h */,
+				9BC86D5F1305D979009E713C /* TestItemCell.m */,
 			);
 			path = TableTest;
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 			files = (
 				9BC86D4C1305D605009E713C /* main.m in Sources */,
 				9BC86D521305D605009E713C /* TableTestAppDelegate.m in Sources */,
+				9BC86D5D1305D8B6009E713C /* TestItem.m in Sources */,
+				9BC86D601305D979009E713C /* TestItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
